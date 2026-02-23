@@ -1,0 +1,36 @@
+.menu__list {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.menu__link {
+  position: relative;
+  font-size: 20px;
+}
+
+.menu__link::after,
+.menu__link::before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 1px;
+  background-color: var(--color-white);
+  border-radius: var(--border-radius);
+  transition-duration: var(--transition-duration);
+}
+
+.menu__link::after {
+  top: -2px;
+  left: 0;
+}
+
+.menu__link::before {
+  bottom: -2px;
+  right: 0;
+}
+
+.menu__link:hover.menu__link::after,
+.menu__link:hover.menu__link::before {
+  width: 100%;  
+}

@@ -1,0 +1,8 @@
+.logo {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.logo:hover {
+  color: var(--color-additional);
+}
