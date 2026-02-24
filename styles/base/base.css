@@ -18,6 +18,10 @@
   --transition-duration: 0.2s;
 }
 
+html.is-look {
+  overflow: hidden;
+}
+
 body {
   font-family: var(--font-family-base);
   font-weight: 400;

@@ -1,1 +1,3 @@
-console.log('hello world!');
+import Menu from "./components/Menu.js";
+
+new Menu();
