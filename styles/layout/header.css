@@ -22,3 +22,19 @@
 .header__link:hover {
   color: var(--color-additional);
 }
+
+.header__actions {
+  display: none;
+  align-items: center;
+  column-gap: 10px;
+}
+
+@media (width <= 1024px) {
+  .header__wrapper {
+    display: none;
+  }
+
+  .header__actions {
+    display: flex;
+  }
+}

@@ -53,6 +53,22 @@ ul {
   margin: 0;
 }
 
+.button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  background-color: rgba(255, 255, 255, 0.08); /* ваш прозрачный фон */
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 10px;
+}
+
+.button:active {
+  scale: 0.97;
+}
+
 .container {
   margin-inline: auto;
   padding-inline: var(--container-padding-x);

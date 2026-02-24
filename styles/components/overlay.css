@@ -1,0 +1,26 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-accent);
+  font-size: 30px;
+  font-weight: 600;
+  transition-duration: var(--transition-duration);
+  z-index: 100;
+  transform: translateX(100%);
+}
+
+.overlay.is-active {
+  transform: translateX(0);
+}
+
+.overlay__menu-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
