@@ -1,0 +1,23 @@
+.about {
+  padding-top: 120px;
+}
+
+.about__inner {
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+}
+
+.about__content--top {
+  padding-bottom: 120px;
+}
+
+.about__content--bottom {
+  padding-block: 100px;
+  background-color: #f9f9f9;
+}
+
+.about__description {
+  max-width: 890px;
+  font-size: 30px;
+}
