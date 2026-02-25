@@ -53,3 +53,24 @@
   opacity: 0.08;
   border-radius: 50%;
 }
+
+.metrics__tooltip-box {
+  position: absolute;
+  top: -50%;
+  right: 10%;
+  max-width: 251px;
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 5px;
+  background-color: var(--color-white);
+  transition-duration: var(--transition-duration);
+  transform: translateX(-100%);
+  scale: 0;
+}
+
+.metrics__tooltip-box.is-active {
+   transform: translateX(0);
+  scale: 1;
+}
